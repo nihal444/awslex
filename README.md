@@ -63,5 +63,5 @@ def lambda_handler(event, context):
     # Respond with a confirmation message
 ```
 
-Refer to the full implementation in lamda_function.py for more details.
+Refer to the full implementation in [lamda_function.py](lamda_function.py) for more details.
 
