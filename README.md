@@ -1,26 +1,5 @@
 # Hotel Booking Chatbot using Amazon Lex
 
-Here’s a suggested README.md template for your GitHub repository based on the contents of the uploaded PDF:
-
----
-
-# Hotel Booking Chatbot using Amazon Lex
-
-This repository contains the project files for a chatbot developed as part of the **Corizo Internship**. The chatbot assists users in booking hotel rooms through a guided interaction, implemented using Amazon Lex and AWS Lambda.
-
----
-
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Setup Instructions](#setup-instructions)
-    - [Amazon Lex Configuration](#step-1-set-up-amazon-lex)
-    - [Defining Intents and Slots](#step-2-define-intents)
-    - [Fulfillment with AWS Lambda](#step-4-define-fulfillment)
-3. [Testing the Chatbot](#step-5-test-the-chatbot)
-4. [Code Snippets](#code-snippets)
-5. [References](#references)
-
----
 
 ## Introduction
 
@@ -43,7 +22,10 @@ This chatbot project is a comprehensive hotel booking system that:
 
 - Create an intent named `BookHotel`.
 - Add **Sample Utterances** (e.g., "I want to book a hotel room", "Help me with hotel booking").
-- Define slots for collecting user inputs:
+
+### Step 3: Add Slots for Booking Information
+
+ - Define slots for collecting user inputs:
   - **Fname**: User's name.
   - **HotelLocation**: Custom slot type with supported cities (e.g., Bangalore, Pune, Goa).
   - **RoomType**: Custom slot type for room categories (Classic, Deluxe, Duplex).
@@ -83,22 +65,3 @@ def lambda_handler(event, context):
 
 Refer to the full implementation in `Lambda_function.py` for more details.
 
----
-
-## References
-
-- **Corizo Internship** documentation and project guidance.
-- AWS Lex and Lambda official documentation.
-
----
-
-### Repository Preview
-
-![](images/chatbot_architecture.png)  
-*Chatbot architecture: Amazon Lex and AWS Lambda*
-
----
-
-Add screenshots or architecture diagrams under the `images/` folder and link them in the README file.
-
-Let me know if you need assistance with additional customizations!
