@@ -21,6 +21,7 @@ This chatbot project is a comprehensive hotel booking system that:
 ### Step 2: Define Intents
 
 - Create an intent named `BookHotel`.
+  ![1c](https://github.com/user-attachments/assets/3bc1f8d3-1995-4afe-b29d-3345e1952a0f)
 - Add **Sample Utterances** (e.g., "I want to book a hotel room", "Help me with hotel booking").
 
 ### Step 3: Add Slots for Booking Information
